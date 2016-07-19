@@ -48,7 +48,7 @@ abstract_target 'WordPress_Base' do
     pod 'NSURL+IDN', '0.3'
     pod 'Simperium', '0.8.15'
     pod 'WPMediaPicker', '~> 0.10.1'
-    pod 'WordPress-iOS-Editor', '1.7.1'
+    pod 'WordPress-iOS-Editor', :git => 'https://github.com/wordpress-mobile/WordPress-Editor-iOS.git', :commit => '85012d03770db30f1074f993b2ccd6b4b90814f7'
     pod 'WordPressCom-Analytics-iOS', '0.1.15'
     pod 'WordPressCom-Stats-iOS', '0.7.4'
     pod 'wpxmlrpc', '~> 0.8'
